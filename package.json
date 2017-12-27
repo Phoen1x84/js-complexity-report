@@ -1,0 +1,23 @@
+{
+  "name": "js-complexity-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "complex": "cr -n --config ./config/complexrc ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoen1x84/js-complexity-report.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phoen1x84/js-complexity-report/issues"
+  },
+  "homepage": "https://github.com/Phoen1x84/js-complexity-report#readme",
+  "dependencies": {
+    "complexity-report": "^2.0.0-alpha"
+  }
+}
